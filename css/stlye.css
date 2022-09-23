@@ -46,21 +46,17 @@ a.active,a:hover{
   background: #1b9bff;
   transition: .5s;
 }
-.checkbtn{
-font-size: 30px;
-color: white;
-float: right;
-line-height: 80px;
-cursor: pointer;
-margin-right: 40px;
-display: none;
-height: 50px;
-width: 50px;
 
-}
-#check{
-  display: none;
-}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-left: 40px;
+  cursor: pointer;
+
+  }
+
 
 
 #real {
@@ -264,9 +260,7 @@ p {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
-.checkbtn{
-  display: block;
-}
+
 
   /* Home Page */
   .col-sm-1 {
@@ -391,3 +385,4 @@ p {
 @media (max-width: 479px) {
 
 }
+
